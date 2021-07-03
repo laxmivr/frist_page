@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 100px;
+    color: rgb(41, 37, 37);
+    text-emphasis: bold;
+    text-shadow: rgba(107, 119, 37, 0.945);
+}
+
+header {
+    padding: 30px;
+    background-color: rgb(120, 238, 173);
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Limelight', cursive;
+    font-weight: bolder;
+    font-size: 40px;
+    text-shadow: aliceblue;
+}
+
+nav {
+    background-color: rgb(157, 155, 161);
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: underline;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: rgb(24, 23, 23);
+}
+
+main {
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    border: 10px solid black;
+}
+.background {
+  background-image: url("/gallery/g12.jpg");
+  height: 400px;
+  background-size: 1000px;
+  padding: 60px;
+}
+
+h2 {
+    padding: 20px;
+}
+
+section{
+  background-color: rgb(252, 186, 186);
+}
+
+section {
+    min-height: 50vh;
+    text-align: center;
+    
+}
+ul {
+    text-align: center , justify;
+    list-style: inside;
+  }
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 75vh;
+}
+
+
+section h5 {
+    margin: 40px;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  footer{
+    background-color: #333;
+    color: aliceblue;
+    font-family: 'Lobster', cursive;
+  }
