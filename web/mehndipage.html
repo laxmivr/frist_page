@@ -21,10 +21,6 @@
 
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light style=background-color:#2C8C83; my-2">
-      
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
@@ -37,7 +33,7 @@
             <a class="nav-link" href="#samplep">Sample Designs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#gallery">Gallery</a>
+            <a class="nav-link" href="#galleryp">Gallery</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#formp">Contact Us</a>
@@ -45,6 +41,7 @@
           
         </ul>
       </div>
+      
     </nav>
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
       <div class="carousel-inner ">
@@ -88,20 +85,20 @@
             <p>In this section You can go througth our bridal works. <br>
             As kamal mehndi arts is famous for its really beautiful and gorgeous designs that are a perfect blend of trend and tradition. <br>
           So, We hope for your happiness by our work only. </p>
-            <img src="bridal/b4.jpg" alt="sample 4 image" width="30%" width="400" height="500">
-            <img src="bridal/b5.jpg" alt="sample 5 image" width="30%" width="400" height="500">
-            <img src="bridal/b6.jpg" alt="sample 6 image" width="30%" width="400" height="500">
+            <img src="bridal/b4.jpg" alt="sample 4 image" width="25%"  height="400">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="bridal/b5.jpg" alt="sample 5 image" width="25%"  height="400">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="bridal/b6.jpg" alt="sample 6 image" width="25%"  height="400">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <br><br>
-            <img src="bridal/b7.jpg" alt="sample 7 image" width="30%" width="400" height="500">
-            <img src="bridal/b8.jpg" alt="sample 8 image" width="30%" width="400" height="500">
-            <img src="bridal/b9.jpg" alt="sample 9 image" width="30%" width="400" height="500">
+            <img src="bridal/b7.jpg" alt="sample 7 image" width="25%"  height="400">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="bridal/b8.jpg" alt="sample 8 image" width="25%"  height="400">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="bridal/b9.jpg" alt="sample 9 image" width="25%"  height="400">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <br><br><br>
           </section>
 
         <section>
           <div class="background" id="typesp">
             <b>
-            <h1>TYPES</h1>
+            <h1 style="text-align: center;">TYPES</h1>
             <h4>Here We would like to specify the the varies types and varies mehndi forms that are done by us. </h4>
             <ul style="list-style-type:square;"> 
                 <li>Arabic</li>
@@ -120,14 +117,15 @@
             <h1>GALLERY</h1>
             <br>
             <p>This section brings some more glimpses of the work done by us.</p>
-            <img src="gallery/g1.jpg" alt="sample 1" width="20%">
-            <img src="gallery/g2.jpg" alt="sample 2" width="20%">
-            <img src="gallery/g3.jpg" alt="sample 3" width="20%">
+            <img src="gallery/g1.jpg" alt="sample 1" width="23%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="gallery/g2.jpg" alt="sample 2" width="23%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="gallery/g3.jpg" alt="sample 3" width="23%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <br>
             <br>
-            <img src="gallery/g4.jpg" alt="sample 4" width="20%">
-            <img src="gallery/g5.jpg" alt="sample 5" width="20%">
-            <img src="gallery/g6.jpg" alt="sample 6" width="20%">
+            <br>
+            <img src="gallery/g4.jpg" alt="sample 4" width="23%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="gallery/g5.jpg" alt="sample 5" width="23%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="gallery/g6.jpg" alt="sample 6" width="23%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <br>
             <h4>Hope you like it !</h4>
             <br>
@@ -142,31 +140,38 @@
                 </div>
                 <div class="row">
                   <div class="column">
-                    <img src="gallery/g10.jpg" style="border: solid black" height="600px" >
+                    <img src="/gallery/g10.jpg" style="border: solid black" height="600px" >
                   </div>
                   <div class="column" id="formp">
                     <form action="my.php" method="POST">
-                      <label for="fname">First Name</label>
+                      <label for="fname" id="infont">First Name</label>
                       <input type="text" id="fname" name="firstname" placeholder="Your name...">
-                      <label for="lname">Last Name</label>
+                      <label for="lname" id="infont">Last Name</label>
                       <input type="text" id="lname" name="lastname" placeholder="Your last name...">
-                      <label for="email">Email</label>
-                      <input type="email" id="mail" name="mail" placeholder="Your mail..,">
-                      <br>
-                      <br>
-                      <label for="subject">Feedback</label>
-                      <textarea id="subject" name="subject" placeholder="Write something....." style="height:170px"></textarea>
+                      <label for="email" id="infont">Email</label>
+                      <input type="email" id="mail" name="mail" placeholder="Your mail..," width="100%">
+                      <br><br>
+                      <label for="subject" id="infont">Feedback</label>
+                      <textarea id="subject" name="subject" placeholder="Write something....." style="height:170px"></textarea><br>
                       <input type="submit" value="Submit" name="btn">
                     </form>
                   </div>
                 </div>
               </div>
         </section>
+        <section class="sampleDesign">
+          <br><br>
+          <img src="/gallery/laxmi.JPG" alt="laxmi" width="12%" height="200px"> &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+          <img src="/gallery/isha.jpg" alt="isha" width="12%" height="200px"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img src="/gallery/naveen.jpg" alt="nivedita" width="12%" height="200px"> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <img src="/gallery/abhi.jpg" alt="abhishek" width="12%" height="200px">
+          <br>
+        </section>
         <footer>
-          <a href="https://www.instagram.com/kamal_mehndiart/">
+          <a href="https://www.instagram.com/mehndi_designer_kamal/" target="_blank"> 
             <img src="gallery/insta logo.jpg" alt="instagram link" height="50px">instagram link
           </a> 
-          <a href="https://www.facebook.com/kamalmehandiDesigner/">
+          <a href="https://www.facebook.com/kamalmehandiDesigner/" target="_blank">
             <img src="gallery/fb logo.jpg" alt="facebook link" height="50px"> facebook page
           </a>
           <a href="">
